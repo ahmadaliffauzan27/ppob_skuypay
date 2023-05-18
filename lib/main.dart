@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:skuypay/views/screens/onboarding_screen/onboarding_screen.dart';
+import 'package:skuypay/views/screens/register_screen/register_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const OnboardingScreen(),
+      home: const RegisterScreen(),
     );
   }
 }
