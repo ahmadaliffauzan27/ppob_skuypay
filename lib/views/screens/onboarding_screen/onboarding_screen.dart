@@ -110,7 +110,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       children: [
         SizedBox(
           width: MediaQuery.of(context).size.width,
-          height: 350,
+          height: 380,
           child: Stack(
             children: [
               Image.asset(imagePath),
